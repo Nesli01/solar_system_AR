@@ -1,1 +1,19 @@
+# Unity dosyaları için
+*.cs   text diff=csharp
+*.shader   text
+*.json   text
+*.txt   text
+*.xml   text
+# Resimler için
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+# Ses dosyaları için
+*.wav   binary
+*.mp3   binary
+# Video dosyaları için
+*.mp4   binary
+# 3D Model dosyaları için
+*.fbx   binary
 *.tgz filter=lfs diff=lfs merge=lfs -text
