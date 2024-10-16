@@ -1,1 +1,16 @@
+# Vuforia ve diğer büyük dosyalar için
 *.tgz filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text  # Photoshop dosyaları
+*.zip filter=lfs diff=lfs merge=lfs -text  # Zip dosyaları
+*.exe filter=lfs diff=lfs merge=lfs -text  # İcra dosyaları
+*.mp4 filter=lfs diff=lfs merge=lfs -text  # Video dosyaları
+*.wav filter=lfs diff=lfs merge=lfs -text   # Ses dosyaları
+
+# Metin olmayan dosyalar
+*.jpg binary
+*.png binary
+*.gif binary
+*.tiff binary
+
+# Tüm dosyalar için LFS izleme (isteğe bağlı)
+# * filter=lfs diff=lfs merge=lfs -text
